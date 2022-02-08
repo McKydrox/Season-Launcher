@@ -4,20 +4,28 @@
 
 .settingsNavbtn {
   width: 10%;
-  text-align: -webkit-center;
   color: white;
-  margin: 20% 0%;
+  margin: 10% 45%;
+  text-align: -webkit-center;
+  border-style: solid;
+  border-color: orange;
+  background-color: rgb(48, 48, 48);
+  border-radius: 10px;
+  
+
 }
 
 .settingsbtn {
   display: flex;
   border: none;
   background: none;
-  color: #64bf6d80;
+  color: orange;
   font-size: 140%;
   font-weight: bolder;
-  margin: 7% 0%;
-  padding: 0;
+  margin: 10% 35%;
+  padding: 2%;
+  border-width: 100px;
+  
 }
 
 .tabsettings {
@@ -25,7 +33,9 @@
   border-radius: 25px;
   background: rgb(48, 48, 48);
   padding: 2%;
-  width: 90%;
-  height: 80%;
-  margin: 10% 10%;
+  width: 13%;
+  height: 15%;
+  margin: 5% 5%;
+  border-style: solid;
+  border-color: orange;
 }

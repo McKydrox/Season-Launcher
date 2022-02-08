@@ -10,8 +10,8 @@ config.info().then(async (config)  => {
     } else {
         document.querySelector(".player-connect").innerHTML = ""
         if(StatusServer.players.online === 0){
-            document.querySelector(".player-connect-number").innerHTML = `Aucun joueur actuellement connecté`;
-            document.querySelector(".player-connect").innerHTML = `Aucun joueur actuellement connecté`;
+            document.querySelector(".player-connect-number").innerHTML = ``;
+            document.querySelector(".player-connect").innerHTML = ``;
         } else if (StatusServer.players.online === 1){
             document.querySelector(".player-connect-number").innerHTML = `${StatusServer.players.online} joueur actuellement connecté`;
             head(StatusServer.players)      

@@ -1,15 +1,15 @@
 .news {
     position: absolute;
-    background: #222222;
+    background: orange;
     border-radius: 20px;
     text-align: center;
     width: 55%;
     color: black;
-    margin-top: 40%;
-    margin-left: 4%;
+    margin-top: 45%;
+    margin-left: 20%;
 }
 .news-text {
-    color: azure;
+    color: white;
 }
 
 .container-news {

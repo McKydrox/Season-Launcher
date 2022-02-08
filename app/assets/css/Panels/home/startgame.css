@@ -1,10 +1,9 @@
 .block-play {
     position: absolute;
-    background: #222222;
     width: 75%;
     height: 10%;
     margin: 10%;
-    margin-top: 28%;
+    margin-top: 2%;
     border-radius: 10px;
     display: flex;
 }
@@ -18,8 +17,8 @@
     border: none;
     color: azure;
     margin-top: 1.7%;
-    margin-left: 80%;
-    background: #64bf6d;
+    margin-left: 45%;
+    background: orange;
 }
 
 .play-btn:hover {
@@ -54,6 +53,6 @@
 }
 
 .progress-bar::-webkit-progress-value {
-    background-color: #64bf6d;
+    background-color: orange;
     border-radius: 10px;
 }
